@@ -1,9 +1,9 @@
 ---
-title: Ejercicio de Documentación: Proyecto UserAdmin
-author: Candela
-date: 2026-04-26
-category: Desarrollo de Software
-tags: markdown tutorial python crud
+title: "Ejercicio de Documentación: Proyecto UserAdmin"
+author: "Alumno/a de Ciclo Formativo"
+date: "2023-10-27"
+category: "Desarrollo de Software"
+tags: [markdown, tutorial, python, crud]
 ---
 
 # Documentación del proyecto: UserAdmin API
@@ -31,5 +31,28 @@ Para Configurar el entorno, sigue estos pasos:
 1. Clonar repositorio: git clone https://github.com/usuario/proyecto.git
 
 2. Crear el entorno virtual:
-- Windows:
+- Windows: python -m venv venv
 - Linux/macOS:
+- Windows: python3 -m venv venv
+
+3. Instalar dependencias: Consulta el archivo requirementes [requirements.txt]
+(https://ejemplo.com/requirements.txt).
+
+### Recursos Visuales
+A continuación se muestra el logotipo del proyecto:
+
+![Logo UserAdmin](https://www.iesfuengirola1.es/wp-content/uploads/2023/03/logo_web_p-1.png)
+
+---
+
+## Estructura de la Base de Datos
+La tabla principal de nuestra aplicación tiene el siguiente formato:
+
+| Campo | Tipo | Descripción |
+| :--- | :--- | :--- |
+| id | Integer | Clave primaria autoincremental |
+| username | String | Nombre de usuario (único) |
+| email | String | Correo electrónico validado |
+| status | Boolean | Estado de activación |
+
+---
