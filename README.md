@@ -16,9 +16,8 @@ tags: markdown tutorial python crud
 5. Ejemplos de Código
 
 ## 1. Descripción General
-
 Bienvenidos al manual de la aplicación UserAdmin. Este documento sirve como ejercicio práctico para dominar el lenguaje de marcado Markdown.
-
+---
 Esta aplicación permite realizar operaciones CRUD (Crear, Leer, Actualizar y Borrar) sobre una base de datos de usuarios. Es fundamental seguir las normas de seguridad establecidas.
 
 > "La documentación es tan importante como el código mismo."
