@@ -3,7 +3,7 @@ title: "Ejercicio de Documentación: Proyecto UserAdmin"
 author: "Alumno/a de Ciclo Formativo"
 date: "2023-10-27"
 category: "Desarrollo de Software"
-tags: [markdown, tutorial, python, crud]
+tags: markdown tutorial python crud
 ---
 
 # Documentación del proyecto: UserAdmin API
