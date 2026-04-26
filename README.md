@@ -7,17 +7,18 @@ tags: markdown tutorial python crud
 ---
 
 # Documentación del proyecto: UserAdmin API
-
+Bienvenidos al manual de la aplicación UserAdmin. Este documento sirve como ejercicio práctico para dominar el lenguaje de marcado Markdown.
+---
 ## Índice
 1. Descripción General
 2. Guía de Instalación
 3. Estructura de la Base de Datos
 4. Lógica del Sistema
 5. Ejemplos de Código
+---
 
 ## 1. Descripción General
-Bienvenidos al manual de la aplicación UserAdmin. Este documento sirve como ejercicio práctico para dominar el lenguaje de marcado Markdown.
----
+
 Esta aplicación permite realizar operaciones CRUD (Crear, Leer, Actualizar y Borrar) sobre una base de datos de usuarios. Es fundamental seguir las normas de seguridad establecidas.
 
 > "La documentación es tan importante como el código mismo."
@@ -31,11 +32,9 @@ Para Configurar el entorno, sigue estos pasos:
 
 2. Crear el entorno virtual:
 - Windows: python -m venv venv
-- Linux/macOS:
-- Windows: python3 -m venv venv
+- Linux/macOS: python3 -m venv venv
 
-3. Instalar dependencias: Consulta el archivo requirementes [requirements.txt]
-(https://ejemplo.com/requirements.txt).
+3. Instalar dependencias: Consulta el archivo requirementes [requirements.txt](https://ejemplo.com/requirements.txt).
 
 ### Recursos Visuales
 A continuación se muestra el logotipo del proyecto:
