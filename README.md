@@ -10,21 +10,21 @@ tags: markdown tutorial python crud
 Bienvenidos al manual de la aplicación UserAdmin. Este documento sirve como ejercicio práctico para dominar el lenguaje de marcado Markdown.
 ---
 ## Índice
-1. Descripción General
-2. Guía de Instalación
-3. Estructura de la Base de Datos
-4. Lógica del Sistema
+1. [Descripción General](#descripción-general)
+2. [Guía de Instalación](#guía-de-instalación)
+3. [Estructura de la Base de Datos](#estructura-de-la-base-de-datos)
+4. [Lógica del Sistema](#lógica-del-sistema)
 5. Ejemplos de Código
 ---
 
-## 1. Descripción General
+## Descripción General
 
 Esta aplicación permite realizar operaciones CRUD (Crear, Leer, Actualizar y Borrar) sobre una base de datos de usuarios. Es fundamental seguir las normas de seguridad establecidas.
 
 > "La documentación es tan importante como el código mismo."
 > - Anónimo del desarrollo.
 
-## 2. Guía de Instalación
+## Guía de Instalación
 
 Para Configurar el entorno, sigue estos pasos:
 
@@ -54,3 +54,13 @@ La tabla principal de nuestra aplicación tiene el siguiente formato:
 | status | Boolean | Estado de activación |
 
 ---
+## Lógica del Sistema
+El proceso de registro de un nuevo usuario sigue el flujo mostrado en este diagrama:
+
+```mermaid
+graph LR
+    A[Formulario Registro] --> B{Validar Datos}
+    B -- Error --> C[Mostrar Alerta]
+    B -- OK --> D[Cifrar Password]
+    D --> E[(Guardar en DB)]
+    E --> F[Enviar Email Confirmación]
